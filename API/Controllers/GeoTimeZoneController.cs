@@ -1,15 +1,13 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Domain;
 using Microsoft.AspNetCore.Mvc;
-using RestSharp;
-using System.Text.Json;
-using Domain;
 using Newtonsoft.Json;
+using RestSharp;
 
 namespace API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class GeoTimeZoneController : ControllerBase
+    public class GeoTimeZoneController : ControllerBase //GIT-HUB
     {
 
         [HttpGet("")]
