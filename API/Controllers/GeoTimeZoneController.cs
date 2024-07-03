@@ -47,8 +47,7 @@ namespace API.Controllers
             { 
                 Id = countryId,
                 location = obj.location,
-                country_iso = obj.country_iso
-                
+                country_iso = obj.country_iso                
             };
 
             return Ok(c);
